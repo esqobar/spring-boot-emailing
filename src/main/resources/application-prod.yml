@@ -1,0 +1,17 @@
+MYSQL_USERNAME: root
+MYSQL_PASSWORD:
+MYSQL_HOST: 127.0.0.1
+MYSQL_PORT: 3306
+MYSQL_DB: spring_emailing_db
+
+#server
+SERVER_PORT: 8000
+ACTIVE_PROFILE: prod
+
+#Email Server
+EMAIL_HOST: smtp.gmail.com
+EMAIL_PORT: 587
+EMAIL_ID: collecollins@gmail.com
+EMAIL_PASSWORD: hyohfcsmeckbadrq
+VERIFY_EMAIL_HOST: http://localhost:${SERVER_PORT}
+
